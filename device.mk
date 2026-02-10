@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023 The Infinity-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -25,9 +25,10 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-	FrameworksResOverlayLG8n \
+    FrameworksResOverlayLG8n \
     SettingsProviderOverlayLG8n \
-    SystemUIOverlayLG8n
+    SystemUIOverlayLG8n \
+    UpdaterResOverlayLG8n
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31

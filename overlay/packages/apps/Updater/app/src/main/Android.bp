@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "UpdaterResOverlayLG8N",
+    product_specific: true,
+}
